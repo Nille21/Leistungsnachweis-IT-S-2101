@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="de" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Marvel's The Avengers</title>
+		<link rel="stylesheet" href="css/foundation.css">
+		<link rel="stylesheet" href="css/app.css">
+	</head>
+	<body>
+		<title>Wertübergabe mittels URL - Empfangendes Dokument</title>
+		<script type="text/javascript">
+		function Werteliste (querystring) {
+		  if (querystring == '') return;
+		  var wertestring = querystring.slice(1);
+		  var paare = wertestring.split("&");
+		  var paar, name, wert;
+		  for (var i = 0; i < paare.length; i++) {
+			paar = paare[i].split("=");
+			name = paar[0];
+			wert = paar[1];
+			name = unescape(name).replace("+", " ");
+			wert = unescape(wert).replace("+", " ");
+			this[name] = wert;
+		  }
+		}
+		var liste = new Werteliste(location.search);
+		</script>
+		<h1>Übermittelte Daten</h1>
+
+		<table border="1" cellpadding="5" cellspacing="0">
+		  <tr>
+			<th Align="left">Feldname</th>
+			<th Align="left">Eintrag</th>
+		  </tr>
+		  <script type="text/javascript">
+		  for (var eigenschaft in liste) {
+			document.write(
+			  "<tr><td>" + eigenschaft + "</td>" +
+			  "<td><code>" + liste[eigenschaft] + "</code></td></tr>"
+			);
+		  }
+		  </script>
+		</table>
+	</body>
+	<footer>		
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/vendor/what-input.js"></script>
+		<script src="js/vendor/foundation.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/storage.js"></script>
+	</footer>
+</html>
