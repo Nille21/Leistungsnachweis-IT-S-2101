@@ -1,11 +1,5 @@
-
 /* Index */
 
-/* * {
-  padding: 0;
-  margin: 0;
-  font-family: fantasy;
-} */
 body {
   background-color: #000;
 }
@@ -301,18 +295,18 @@ body {
   width: 100%;
 }
 
-#av1 {
+#hh1 {
 	margin: 40px;
 	padding-bottom: 2em;
 	text-align: center justify;
-	color: black;
+	color: white;
 }
 
-#av2 {
+#hh2 {
 	margin: 40px;
 	padding-top: 2em;
 	text-align: center justify;
-	color: black;
+	color: white;
 }
 
 /* Bilder */
@@ -334,7 +328,7 @@ body {
 	float: left;
 }
 
-/* Thor */
+/* Notorious B.I.G. */
 
 #thor {
 	margin: 40px;
@@ -347,7 +341,7 @@ body {
 	float: left;
 }
 
-/* Hulk */
+/* DMX */
 
 #hulk {
 	margin: 40px;
