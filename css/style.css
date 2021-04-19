@@ -343,13 +343,13 @@ body {
 
 /* DMX */
 
-#hulk {
+#dmx {
 	margin: 40px;
 	text-align: center justify;
-	color: black;
+	color: white;
 }
 
-#hulkbild {
+#dmxbild {
 	margin: 40px;
 	float: left;
 }
