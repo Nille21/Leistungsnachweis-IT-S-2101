@@ -309,8 +309,6 @@ body {
 	color: white;
 }
 
-/* Bilder */
-
 #bilder {
 	margin-left: 12em;
 }
@@ -389,6 +387,12 @@ body {
 
 .translucent-form-overlay input::placeholder {
   color: #8a8a8a;
+}
+
+/* Ausgabe */
+
+#ausgabe {
+  color: white;
 }
 
 /* Impressum */
