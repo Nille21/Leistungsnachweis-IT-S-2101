@@ -318,7 +318,8 @@ body {
 /* 2Pac */
 
 #pac {
-	margin: 40px;
+	margin-right: 40px;
+  margin-left: 40px;
 	text-align: center justify;
 	color: white;
 }
@@ -331,7 +332,8 @@ body {
 /* Notorious B.I.G. */
 
 #biggie {
-	margin: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
 	text-align: center justify;
 	color: white;
 }
@@ -344,7 +346,8 @@ body {
 /* DMX */
 
 #dmx {
-	margin: 40px;
+	margin-right: 40px;
+  margin-left: 40px;
 	text-align: center justify;
 	color: white;
 }
