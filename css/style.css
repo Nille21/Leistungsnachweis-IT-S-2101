@@ -328,6 +328,10 @@ body {
 	float: left;
 }
 
+#m2pac {
+  float: right;
+}
+
 /* Notorious B.I.G. */
 
 #biggie {
@@ -342,6 +346,10 @@ body {
 	float: left;
 }
 
+#mbiggie {
+  float: right;
+}
+
 /* DMX */
 
 #dmx {
@@ -354,6 +362,10 @@ body {
 #dmxbild {
 	margin: 40px;
 	float: left;
+}
+
+#mdmx {
+  float: right;
 }
 
 /* newsletter */
