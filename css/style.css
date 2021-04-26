@@ -195,7 +195,7 @@ body {
 
 .hero-full-screen2 .middle-content-section2 {
   text-align: center justify;
-  color: #fefefe;
+  color: #6ab04c;
 }
 
 .hero-full-screen2 .top-content-section2 {
@@ -209,7 +209,7 @@ body {
 .hero-full-screen2 .bottom-content-section2 svg {
   height: 3.75rem;
   width: 3.75rem;
-  fill: #fefefe;
+  fill: #6ab04c;
 }
 
 .hero-full-screen2 .top-bar2 {
@@ -221,7 +221,7 @@ body {
 }
 
 .hero-full-screen2 .top-bar2 .menu-text2 {
-  color: #fefefe;
+  color: #6ab04c;
 }
 
 .hero-full-screen2 .top-bar2 .menu2 li {
@@ -234,7 +234,7 @@ body {
 }
 
 .hero-full-screen2 .top-bar2 .menu2 a {
-  color: #fefefe;
+  color: #6ab04c;
   font-weight: bold;
 }
 
@@ -250,7 +250,7 @@ body {
 
 .menu-hover-lines li a {
   padding: 0.75rem 0;
-  color: rgba(10, 10, 10, 0.5);
+  color: #6ab04c;
   position: relative;
   margin-left: 1rem;
 }
@@ -285,7 +285,7 @@ body {
 
 .menu-hover-lines a:hover,
 .menu-hover-lines li.active > a {
-  color: #0a0a0a;
+  color: #6ab04c;
   transition: all 0.35s ease;
 }
 
