@@ -68,7 +68,7 @@ body {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: black;
+  background: white;
   background-size: cover;
 }
 
